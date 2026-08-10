@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "60514509-bff3-481c-b769-dd3b99f4963f",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48560292"
+  },
+  "item": [
+    {
+      "name": "checkin",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "name",
+            "value": "venkat",
+            "type": "text"
+          },
+          {
+            "key": "age",
+            "value": "22",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8081/savedata",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "savedata"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ApplyLeave",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "GetLeaveHistory",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "GetUserProfile",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "checkout",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "CancelLeave",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "updateprofile",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Getpayrollhistory",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "GetSpecificPaySlip",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
